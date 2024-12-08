@@ -1,0 +1,21 @@
+Turing Machine: anbnTM
+Tape: aabb
+String accepted in 15 transitions
+                     Start: [['', 'q0', 'a', 'abb']]
+Depth 1 (Nondeterminism 1): [['x', 'q1', 'a', 'bb']]
+Depth 2 (Nondeterminism 1): [['xa', 'q1', 'b', 'b']]
+Depth 3 (Nondeterminism 1): [['xab', 'q1', 'b', '']]
+Depth 4 (Nondeterminism 1): [['xabb', 'q1', '_', '']]
+Depth 5 (Nondeterminism 1): [['xab', 'q2', 'b', '']]
+Depth 6 (Nondeterminism 1): [['xa', 'q3', 'b', 'y']]
+Depth 7 (Nondeterminism 1): [['x', 'q3', 'a', 'by']]
+Depth 8 (Nondeterminism 1): [['', 'q3', 'x', 'aby']]
+Depth 9 (Nondeterminism 1): [['x', 'q0', 'a', 'by']]
+Depth 10 (Nondeterminism 1): [['xx', 'q1', 'b', 'y']]
+Depth 11 (Nondeterminism 1): [['xxb', 'q1', 'y', '']]
+Depth 12 (Nondeterminism 1): [['xx', 'q2', 'b', 'y']]
+Depth 13 (Nondeterminism 1): [['x', 'q3', 'x', 'yy']]
+Depth 14 (Nondeterminism 1): [['xx', 'q0', 'y', 'y']]
+Depth 15 (Nondeterminism 1): [['xx', 'qaccept', 'y', 'y']]
+Total Transitions: 15
+Total Nondeterminism: 1.0

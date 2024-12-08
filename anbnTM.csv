@@ -1,0 +1,1 @@
+anbnTM,q0 q1 q2 q3 qaccept qreject,a b,a b x y _,q0,qaccept,qreject,q0/a/q1/x/R q0/y/qaccept/y/L q1/a/q1/a/R q1/b/q1/b/R q1/_/q2/_/L q1/y/q2/y/L q2/b/q3/y/L q3/a/q3/a/L q3/b/q3/b/L q3/x/q0/x/R

@@ -1,0 +1,56 @@
+Turing Machine: a+TM
+Tape: aaaaaaaaaaaaaaaaaaaaab
+Rejected in 22 transitions
+   Start: [['', 'q1', 'a', 'aaaaaaaaaaaaaaaaaaaab']]
+Depth  1: [['a', 'q1', 'a', 'aaaaaaaaaaaaaaaaaaab'], ['a', 'q2', 'a', 'aaaaaaaaaaaaaaaaaaab']]
+Depth  2: [['aa', 'q1', 'a', 'aaaaaaaaaaaaaaaaaab'], ['aa', 'q2', 'a', 'aaaaaaaaaaaaaaaaaab'], ['aa', 'qreject', 'a', 'aaaaaaaaaaaaaaaaab']]
+Depth  3: [['aaa', 'q1', 'a', 'aaaaaaaaaaaaaaaaab'], ['aaa', 'q2', 'a', 'aaaaaaaaaaaaaaaaab'], ['aaa', 'qreject', 'a', 'aaaaaaaaaaaaaaaab']]
+Depth  4: [['aaaa', 'q1', 'a', 'aaaaaaaaaaaaaaaab'], ['aaaa', 'q2', 'a', 'aaaaaaaaaaaaaaaab'], ['aaaa', 'qreject', 'a', 'aaaaaaaaaaaaaaab']]
+Depth  5: [['aaaaa', 'q1', 'a', 'aaaaaaaaaaaaaaab'], ['aaaaa', 'q2', 'a', 'aaaaaaaaaaaaaaab'], ['aaaaa', 'qreject', 'a', 'aaaaaaaaaaaaaab']]
+Depth  6: [['aaaaaa', 'q1', 'a', 'aaaaaaaaaaaaaab'], ['aaaaaa', 'q2', 'a', 'aaaaaaaaaaaaaab'], ['aaaaaa', 'qreject', 'a', 'aaaaaaaaaaaaab']]
+Depth  7: [['aaaaaaa', 'q1', 'a', 'aaaaaaaaaaaaab'], ['aaaaaaa', 'q2', 'a', 'aaaaaaaaaaaaab'], ['aaaaaaa', 'qreject', 'a', 'aaaaaaaaaaaab']]
+Depth  8: [['aaaaaaaa', 'q1', 'a', 'aaaaaaaaaaaab'], ['aaaaaaaa', 'q2', 'a', 'aaaaaaaaaaaab'], ['aaaaaaaa', 'qreject', 'a', 'aaaaaaaaaaab']]
+Depth  9: [['aaaaaaaaa', 'q1', 'a', 'aaaaaaaaaaab'], ['aaaaaaaaa', 'q2', 'a', 'aaaaaaaaaaab'], ['aaaaaaaaa', 'qreject', 'a', 'aaaaaaaaaab']]
+Depth 10: [['aaaaaaaaaa', 'q1', 'a', 'aaaaaaaaaab'], ['aaaaaaaaaa', 'q2', 'a', 'aaaaaaaaaab'], ['aaaaaaaaaa', 'qreject', 'a', 'aaaaaaaaab']]
+Depth 11: [['aaaaaaaaaaa', 'q1', 'a', 'aaaaaaaaab'], ['aaaaaaaaaaa', 'q2', 'a', 'aaaaaaaaab'], ['aaaaaaaaaaa', 'qreject', 'a', 'aaaaaaaab']]
+Depth 12: [['aaaaaaaaaaaa', 'q1', 'a', 'aaaaaaaab'], ['aaaaaaaaaaaa', 'q2', 'a', 'aaaaaaaab'], ['aaaaaaaaaaaa', 'qreject', 'a', 'aaaaaaab']]
+Depth 13: [['aaaaaaaaaaaaa', 'q1', 'a', 'aaaaaaab'], ['aaaaaaaaaaaaa', 'q2', 'a', 'aaaaaaab'], ['aaaaaaaaaaaaa', 'qreject', 'a', 'aaaaaab']]
+Depth 14: [['aaaaaaaaaaaaaa', 'q1', 'a', 'aaaaaab'], ['aaaaaaaaaaaaaa', 'q2', 'a', 'aaaaaab'], ['aaaaaaaaaaaaaa', 'qreject', 'a', 'aaaaab']]
+Depth 15: [['aaaaaaaaaaaaaaa', 'q1', 'a', 'aaaaab'], ['aaaaaaaaaaaaaaa', 'q2', 'a', 'aaaaab'], ['aaaaaaaaaaaaaaa', 'qreject', 'a', 'aaaab']]
+Depth 16: [['aaaaaaaaaaaaaaaa', 'q1', 'a', 'aaaab'], ['aaaaaaaaaaaaaaaa', 'q2', 'a', 'aaaab'], ['aaaaaaaaaaaaaaaa', 'qreject', 'a', 'aaab']]
+Depth 17: [['aaaaaaaaaaaaaaaaa', 'q1', 'a', 'aaab'], ['aaaaaaaaaaaaaaaaa', 'q2', 'a', 'aaab'], ['aaaaaaaaaaaaaaaaa', 'qreject', 'a', 'aab']]
+Depth 18: [['aaaaaaaaaaaaaaaaaa', 'q1', 'a', 'aab'], ['aaaaaaaaaaaaaaaaaa', 'q2', 'a', 'aab'], ['aaaaaaaaaaaaaaaaaa', 'qreject', 'a', 'ab']]
+Depth 19: [['aaaaaaaaaaaaaaaaaaa', 'q1', 'a', 'ab'], ['aaaaaaaaaaaaaaaaaaa', 'q2', 'a', 'ab'], ['aaaaaaaaaaaaaaaaaaa', 'qreject', 'a', 'b']]
+Depth 20: [['aaaaaaaaaaaaaaaaaaaa', 'q1', 'a', 'b'], ['aaaaaaaaaaaaaaaaaaaa', 'q2', 'a', 'b'], ['aaaaaaaaaaaaaaaaaaaa', 'qreject', 'b', '']]
+Depth 21: [['aaaaaaaaaaaaaaaaaaaaa', 'q1', 'b', ''], ['aaaaaaaaaaaaaaaaaaaaa', 'q2', 'b', ''], ['aaaaaaaaaaaaaaaaaaaaa', 'qreject', '_', '']]
+Depth 22: [['aaaaaaaaaaaaaaaaaaaaab', 'qreject', '_', ''], ['aaaaaaaaaaaaaaaaaaaaab', 'qreject', '_', '']]
+Total Transitions: 64	Nonleaves: 42
+Total Nondeterminism: 1.5238095238095237
+
+Tape: aaa
+String accepted in 4 transitions
+   Start: [['', 'q1', 'a', 'aa']]
+Depth  1: [['a', 'q1', 'a', 'a'], ['a', 'q2', 'a', 'a']]
+Depth  2: [['aa', 'q1', 'a', ''], ['aa', 'q2', 'a', ''], ['aa', 'qreject', '_', '']]
+Depth  3: [['aaa', 'q1', '_', ''], ['aaa', 'q2', '_', ''], ['aaa', 'qreject', '_', '']]
+Depth  4: [['', 'qreject', '_', ''], ['aaa', 'qaccept', '_', '']]
+Total Transitions: 10	Nonleaves: 7
+Total Nondeterminism: 1.4285714285714286
+
+Tape: aaaaaaaaaa
+String accepted in 11 transitions
+   Start: [['', 'q1', 'a', 'aaaaaaaaa']]
+Depth  1: [['a', 'q1', 'a', 'aaaaaaaa'], ['a', 'q2', 'a', 'aaaaaaaa']]
+Depth  2: [['aa', 'q1', 'a', 'aaaaaaa'], ['aa', 'q2', 'a', 'aaaaaaa'], ['aa', 'qreject', 'a', 'aaaaaa']]
+Depth  3: [['aaa', 'q1', 'a', 'aaaaaa'], ['aaa', 'q2', 'a', 'aaaaaa'], ['aaa', 'qreject', 'a', 'aaaaa']]
+Depth  4: [['aaaa', 'q1', 'a', 'aaaaa'], ['aaaa', 'q2', 'a', 'aaaaa'], ['aaaa', 'qreject', 'a', 'aaaa']]
+Depth  5: [['aaaaa', 'q1', 'a', 'aaaa'], ['aaaaa', 'q2', 'a', 'aaaa'], ['aaaaa', 'qreject', 'a', 'aaa']]
+Depth  6: [['aaaaaa', 'q1', 'a', 'aaa'], ['aaaaaa', 'q2', 'a', 'aaa'], ['aaaaaa', 'qreject', 'a', 'aa']]
+Depth  7: [['aaaaaaa', 'q1', 'a', 'aa'], ['aaaaaaa', 'q2', 'a', 'aa'], ['aaaaaaa', 'qreject', 'a', 'a']]
+Depth  8: [['aaaaaaaa', 'q1', 'a', 'a'], ['aaaaaaaa', 'q2', 'a', 'a'], ['aaaaaaaa', 'qreject', 'a', '']]
+Depth  9: [['aaaaaaaaa', 'q1', 'a', ''], ['aaaaaaaaa', 'q2', 'a', ''], ['aaaaaaaaa', 'qreject', '_', '']]
+Depth 10: [['aaaaaaaaaa', 'q1', '_', ''], ['aaaaaaaaaa', 'q2', '_', ''], ['aaaaaaaaaa', 'qreject', '_', '']]
+Depth 11: [['', 'qreject', '_', ''], ['aaaaaaaaaa', 'qaccept', '_', '']]
+Total Transitions: 31	Nonleaves: 21
+Total Nondeterminism: 1.4761904761904763
+

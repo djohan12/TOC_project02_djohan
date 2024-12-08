@@ -1,0 +1,1 @@
+abs_star,q0 q1 q2 qaccept qreject,a b c, a b c _,q0, qaccept,qreject,q0/a/q0/a/R q0/_/qaccept/_/R q0/b/q1/b/R q1/b/q1/b/R q1/_/qaccept/_/R q1/c/q2/c/R q2/c/q2/c/R q2/_/qaccept/_/R
